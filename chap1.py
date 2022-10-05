@@ -1,3 +1,6 @@
+from plotting import plot
+
+
 def cartesian_product(a: set, b: set) -> list[tuple]:
     """Return the cartesian product of two sets."""
     return [(x, y) for x in a for y in b]
